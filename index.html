@@ -10,13 +10,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href = "css/styles.css">
 </head>
 <body>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#work">Work Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <a href="resume.pdf" download>Download Resume</a>
+    </nav>
     <!-- // Intro -->
-    <header>
+    <header id =  "about">
          <div class="content-wrap">
-        <img class = "header img column-narrow" src="images/6images/6image.gif" alt="Roman">
+        <img class="profile-img column-narrow" src="images/6images/6image.gif" alt="Roman">
 
         <div class="column-wide">
         <h1>Roman Pama</h1>
@@ -29,7 +37,7 @@
     
     <main> 
         <!-- // Work Experience -->
-        <section>
+        <section id="work">
             <h2>Work Experience</h2>
             <div class="content-wrap">
             <!-- Job Details: copy this whole block to add more jobs -->
@@ -59,7 +67,7 @@
 
 
         <!-- // Education -->
-        <section>
+        <section id="education">
             <div class = "content-wrap">
             <h2>Education</h2>
 
@@ -75,21 +83,36 @@
     </main>
     
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
         <div class = "content-wrap">
         <h2>Let's Keep in Touch!</h2>
         
         <!-- Social media and contact links. Add or remove any networks. -->
-        <div class = "contact-info">
-            <a href="mailto:email@example.com">email@example.com</a>
-            <a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a>
-            <a href="#" target="_blank">Twitter</a>
-            <a href="#" target="_blank">LinkedIn</a>
-            <a href="#" target="_blank">Facebook</a>
-        </div>
+    <div class="contact-info">
+        <a href="mailto:email@example.com">
+        <i class="fa-solid fa-envelope"></i> email@example.com
+        </a>
 
+    <a href="http://yourwebsite.com" target="_blank">
+        <i class="fa-solid fa-globe"></i> yourwebsite.com
+        </a>
+
+    <a href="#">
+        <i class="fa-brands fa-twitter"></i> Twitter
+        </a>
+
+    <a href="#">
+        <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+
+    <a href="#">
+        <i class="fa-brands fa-facebook"></i> Facebook
+        </a>
+
+        </div>
         <p>Copyright 2017 by Your Name</p>
         </div>
+        
     </footer>
 </body>
 </html>
